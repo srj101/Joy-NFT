@@ -56,7 +56,7 @@ const LevelFilter = ({ onChange, levels }) => {
                                 onChange={handleClick}
                                 checked={isCheck.includes(lvl)}
                             />
-                            <label htmlFor={`level-check-${lvl}`}>{lvl}</label>
+                            <label htmlFor={`level-check-${lvl}`}>.{lvl}</label>
                         </div>
                     ))}
                 </div>
